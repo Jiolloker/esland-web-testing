@@ -1,0 +1,75 @@
+---
+import BentoItem from "./BentoItem.astro";
+---
+
+<section
+  class={`
+w-full max-w-[1400px] 
+grid grid-cols-10 auto-rows-[30rem] gap-4
+mx-auto p-20
+`}
+>
+  <BentoItem
+    class="col-span-10 md:col-span-4"
+    title="ANDORRA: EL CÉNIT DE LOS PREMIOS ESLAND"
+  >
+  <div
+    slot="image"
+    class="absolute left-0 top-0 bottom-0 w-full
+    h-full group-hover:scale-110 transition-scale duration-1000 ease-in-out opacity-90
+    bg-center bg-cover bg-no-repeat bg-blend-luminosity -z-10 bg-blue-950"
+    style="background-image: url('/mountain.webp')"
+   >
+   </div>
+  <p slot="content" class="max-w-xl">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt diam magna, eu semper turpis accumsan in. Nam id nulla <strong>fermentum augue accumsan laoreet</strong>. Ut posuere nec nunc a cursus. Nulla egestas ultrices neque sit amet lobortis. Curabitur <strong>accumsan nunc eget elit posuere sagittis</strong>.
+  </p>
+  </BentoItem>
+  <BentoItem
+    class="col-span-10 md:col-span-6"
+    title="LA ALFOMBRA BLANCA"
+    subtitle="16 de febrero de 2024"
+  >
+    <div
+    slot="image"
+    class="absolute left-0 top-0 bottom-0 w-full
+    h-full group-hover:scale-110 transition-scale duration-1000 ease-in-out opacity-90
+    bg-center bg-cover bg-no-repeat bg-blend-luminosity -z-10 bg-blue-800"
+    style="background-image: url('/grefg.webp')"
+   ></div>
+   <p slot="content" class="max-w-xl">
+    Eu semper turpis accumsan in. Nam id nulla <strong>fermentum augue accumsan laoreet</strong>. Ut posuere nec nunc a cursus. Nulla egestas ultrices neque sit amet lobortis. Curabitur <strong>accumsan nunc eget elit posuere sagittis</strong>.
+  </p>
+  </BentoItem>
+  <BentoItem
+    class="col-span-10 md:col-span-6"
+    title="LA GALA"
+    subtitle="17 de febrero de 2024"
+  >
+    <div
+    slot="image"
+    class="absolute left-0 top-0 bottom-0 w-full
+    h-full group-hover:scale-110 transition-scale duration-1000 ease-in-out opacity-90
+    bg-center bg-cover bg-no-repeat bg-blend-luminosity -z-10 bg-blue-900"
+    style="background-image: url('/pistas.webp')"
+   ></div>
+   <p slot="content" class="max-w-xl">
+    Semper turpis accumsan in. Nam id nulla <strong>fermentum augue accumsan laoreet</strong>. Ut posuere nec nunc a cursus. Nulla egestas ultrices neque sit amet lobortis. Curabitur <strong>accumsan nunc eget elit posuere sagittis</strong>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt diam magna.
+  </p>
+  </BentoItem>
+  <BentoItem
+    class="col-span-10 md:col-span-4"
+    title="DISFRUTA DEL REDDIT DE LA COMUNIDAD"
+  >
+    <div
+    slot="image"
+    class="absolute left-0 top-0 bottom-0 w-full
+    h-full group-hover:scale-110 transition-scale duration-1000 ease-in-out opacity-90
+    bg-center bg-cover bg-no-repeat bg-blend-luminosity -z-10 bg-blue-800"
+    style="background-image: url('/laptop.webp')"
+   ></div>
+   <p slot="content" class="max-w-xl">
+    Eu semper turpis accumsan in. Nam id nulla <strong>fermentum augue accumsan laoreet</strong>. Ut posuere nec nunc a cursus. Nulla egestas ultrices neque sit amet lobortis. Curabitur <strong>accumsan nunc eget elit posuere sagittis</strong>.
+  </p>
+  </BentoItem>
+</section>
